@@ -12,5 +12,21 @@ struct Mahasiswa
 };
 
 int main (int argc, char const *args[]){
+    Mahasiswa Rafi;
+    Mahasiswa *ptrRafi = &Rafi;
+
+    cout << "Masukkan Nim : ";
+    cin >> ptrRafi->nim;
+    system("cls");
+    cout << "Masukkan Nama : ";
+    cin >> ptrRafi->nama;
+    system("cls");
+    cout << "Masukkan Alamat : ";
+    cin >> ptrRafi->alamat;
+    system("cls");
+    cout << "Masukkan Nim : ";
+    cin >> ptrRafi->ipk;
+    system("cls");
+
     
 }
