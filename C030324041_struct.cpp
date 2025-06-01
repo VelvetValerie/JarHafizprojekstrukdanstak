@@ -28,5 +28,9 @@ int main (int argc, char const *args[]){
     cin >> ptrRafi->ipk;
     system("cls");
 
-    
+    cout << "NIM: " << ptrRafi->nim << endl;
+    cout << "Nama: " << ptrRafi->nama << endl;
+    cout << "Alamat: " << ptrRafi->alamat << endl;
+    cout << "IPK: " << ptrRafi->ipk << endl;
+    return 0;
 }
