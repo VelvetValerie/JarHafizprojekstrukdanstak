@@ -7,10 +7,17 @@ typedef int itemType;
 const int MAXSTACK = 15;
 
 typedef struct stack{
-    itemType item[MAXSTACK];
+    itemType Item[MAXSTACK];
     int Counts;
 } Stack;
 
-int main(int argc, char const *argv[]){
+void InitStack(Stack *S);
+int Full(Stack *S);
+int Empty(Stack *S);
+void Pop(Stack *S, itemType *z);
+void Push(Stack *S, itemType z);
+void display(Stack *S);
 
+int main(int argc, char const *argv[]){
+    
 }
