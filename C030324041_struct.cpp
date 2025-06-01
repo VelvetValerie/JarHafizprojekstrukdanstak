@@ -19,5 +19,18 @@ void Push(Stack *S, itemType z);
 void display(Stack *S);
 
 int main(int argc, char const *argv[]){
+    Stack S;
+    itemType z;
+
+    InitStack(&S);
     
+    Push(&S, 2);
+    Push(&S, 1);
+    Push(&S, 9);
+    Push(&S, 4);
+    Push(&S, 7);
+    Pop(&S, &z);
+    display(&S);
+
+    return 0;
 }
